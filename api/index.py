@@ -14,7 +14,7 @@ def home():
     }
 
     response = requests.get(
-        'http://95.174.126.144/cgi-bin/accessControl.cgi',
+        'http://10.35.128.164/cgi-bin/accessControl.cgi',
         params=params,
         auth=HTTPDigestAuth('admin', 'PG19mega'),
     )
